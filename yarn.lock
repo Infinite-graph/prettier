@@ -1778,6 +1778,11 @@
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.10.2.tgz#604d15d795c4601fffba6ecb4587ff9fdec68ce8"
   integrity sha512-Qfp0qk/5j2Rz3p3/WhWgu4S1JtMcPgFLnmAKAW061uXxKSa7VWKZsDXVaMXh2N60CX9h6YLaBoy9PJAfCOjk3w==
 
+"@typescript-eslint/types@5.19.0":
+  version "5.19.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.19.0.tgz#12d3d600d754259da771806ee8b2c842d3be8d12"
+  integrity sha512-zR1ithF4Iyq1wLwkDcT+qFnhs8L5VUtjgac212ftiOP/ZZUOCuuF2DeGiZZGQXGoHA50OreZqLH5NjDcDqn34w==
+
 "@typescript-eslint/typescript-estree@5.10.2":
   version "5.10.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.10.2.tgz#810906056cd3ddcb35aa333fdbbef3713b0fe4a7"
@@ -1785,6 +1790,19 @@
   dependencies:
     "@typescript-eslint/types" "5.10.2"
     "@typescript-eslint/visitor-keys" "5.10.2"
+    debug "^4.3.2"
+    globby "^11.0.4"
+    is-glob "^4.0.3"
+    semver "^7.3.5"
+    tsutils "^3.21.0"
+
+"@typescript-eslint/typescript-estree@5.19.0":
+  version "5.19.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.19.0.tgz#fc987b8f62883f9ea6a5b488bdbcd20d33c0025f"
+  integrity sha512-dRPuD4ocXdaE1BM/dNR21elSEUPKaWgowCA0bqJ6YbYkvtrPVEvZ+zqcX5a8ECYn3q5iBSSUcBBD42ubaOp0Hw==
+  dependencies:
+    "@typescript-eslint/types" "5.19.0"
+    "@typescript-eslint/visitor-keys" "5.19.0"
     debug "^4.3.2"
     globby "^11.0.4"
     is-glob "^4.0.3"
@@ -1809,6 +1827,14 @@
   integrity sha512-zHIhYGGGrFJvvyfwHk5M08C5B5K4bewkm+rrvNTKk1/S15YHR+SA/QUF8ZWscXSfEaB8Nn2puZj+iHcoxVOD/Q==
   dependencies:
     "@typescript-eslint/types" "5.10.2"
+    eslint-visitor-keys "^3.0.0"
+
+"@typescript-eslint/visitor-keys@5.19.0":
+  version "5.19.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.19.0.tgz#c84ebc7f6c744707a361ca5ec7f7f64cd85b8af6"
+  integrity sha512-Ym7zZoMDZcAKWsULi2s7UMLREdVQdScPQ/fKWMYefarCztWlHPFVJo8racf8R0Gc8FAEJ2eD4of8As1oFtnQlQ==
+  dependencies:
+    "@typescript-eslint/types" "5.19.0"
     eslint-visitor-keys "^3.0.0"
 
 abab@^2.0.3, abab@^2.0.5:
